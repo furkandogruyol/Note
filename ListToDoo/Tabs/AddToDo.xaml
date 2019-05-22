@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListToDoo.Tabs.AddToDo"
+             BackgroundColor="#222831"
+             Visual="Material"
+             Title="Görev Ekle">
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Entry x:Name="tb_baslik" Placeholder="Başlık" FontSize="25" PlaceholderColor="#eeeeee" BackgroundColor="Transparent" TextColor="#eeeeee" Margin="20,10,20,10"></Entry>
+
+            <Editor x:Name="tb_not" Placeholder="Not" BackgroundColor="Transparent"  TextColor="#eeeeee" PlaceholderColor="#eeeeee" AutoSize="Disabled" Margin="20,10,20,10" FontSize="15" IsTextPredictionEnabled="True" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></Editor>
+
+            <Button TextColor="#eeeeee" BackgroundColor="Transparent" HeightRequest="50" CornerRadius="25" FontSize="20" Margin="20,10,20,10" Text="Ekle" Clicked="Button_OnClicked"/>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

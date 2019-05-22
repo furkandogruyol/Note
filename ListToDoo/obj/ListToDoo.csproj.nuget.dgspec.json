@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Furkan\\source\\repos\\ListToDoo\\ListToDoo\\ListToDoo\\ListToDoo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Furkan\\source\\repos\\ListToDoo\\ListToDoo\\ListToDoo\\ListToDoo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\ListToDoo\\ListToDoo\\ListToDoo\\ListToDoo.csproj",
+        "projectName": "ListToDoo",
+        "projectPath": "C:\\Users\\Furkan\\source\\repos\\ListToDoo\\ListToDoo\\ListToDoo\\ListToDoo.csproj",
+        "packagesPath": "C:\\Users\\Furkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Furkan\\source\\repos\\ListToDoo\\ListToDoo\\ListToDoo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Furkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "CardsView": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "XLabs.Forms": {
+              "target": "Package",
+              "version": "[2.0.5782, )"
+            },
+            "Xam.Plugins.Notifier": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.344457, )"
+            },
+            "Xamarin.Forms.Visual.Material": {
+              "target": "Package",
+              "version": "[3.6.0.344457, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.5.231, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

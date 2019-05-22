@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:ListToDoo"
+            x:Class="ListToDoo.MainPage"
+            xmlns:tabs ="clr-namespace:ListToDoo.Tabs"
+            BarBackgroundColor="#222831"
+            NavigationPage.HasBackButton="False"
+            CurrentPageChanged="MainPage_OnCurrentPageChanged"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            xmlns:tabs1="clr-namespace:ListToDoo.Tabs;assembly=ListToDoo"
+            android:TabbedPage.IsSwipePagingEnabled="True"
+            android:TabbedPage.IsSmoothScrollEnabled="True"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarItemColor="#eeeeee"
+            android:TabbedPage.BarSelectedItemColor="#d65a31"
+            Visual="Material">
+
+
+    <tabs1:Tab1 Title="Hatırlatmalar" Icon="calendar.png"/>
+    <tabs1:Tab3 Title="Notlar" Icon="list.png"/>
+    <tabs1:Tab2 Title="Profil" Icon="user.png"/>
+   
+
+</TabbedPage>
